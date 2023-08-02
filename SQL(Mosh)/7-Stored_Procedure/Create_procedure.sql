@@ -1,0 +1,8 @@
+use sql_invoicing;
+delimiter $$
+create procedure get_clients()
+begin
+     select *
+     from clients;
+end $$
+delimiter $$
